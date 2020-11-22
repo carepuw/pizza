@@ -1,0 +1,60 @@
+@import 'variables';
+
+.header {
+  border-bottom: 1px solid $gray-line;
+  padding: 40px 0 20px 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+
+    &__sity-deliv {
+      height: 49px;
+      font-weight: 900px;
+      margin-left: 40px;
+      flex: 1;
+      .upperText {
+        color: black;
+        font-weight: bold;
+        display: flex;
+        align-items: flex-start;
+        font-size: 20px;
+      }
+      span {
+        margin-left: 5px;
+        color: $orange;
+      }
+      .lowerText {
+        color: black;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        img {
+          margin-left: 3px;
+        }
+      }
+    }
+  }
+
+  &__logo {
+    display: flex;
+
+    img {
+      margin-right: 15px;
+      width: 42px;
+    }
+
+    h1 {
+      color: #181818;
+      font-size: 28px;
+      letter-spacing: 1%;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    p {
+      font-size: 15px;
+      color: #7b7b7b;
+    }
+  }
+}
