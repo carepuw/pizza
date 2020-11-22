@@ -3,7 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Запуск 
 
 Для запуска нужно запустить json-server, в package.json уже создан скрипт, напишите:
-    npm run server или yarn server
+
+npm run server или yarn server
 
 ## Оплата заказа
 
